@@ -1,0 +1,110 @@
+html {
+background-color: #EDEAE7;
+text-align: center;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+header {
+display: flex;
+flex-direction: column;
+height: fit-content;
+}
+
+main {
+display: flex;
+flex-direction: row;
+flex: auto;
+}
+
+article {
+flex: 2;
+overflow-y: auto;
+}
+
+aside {
+flex: 1;
+overflow-y: auto;
+}
+
+img {
+width: 250px;
+}
+
+.logo {
+width: 500px;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.iframe-container1{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container1  iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container2 iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container3 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container3 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container4{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container4 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.author {
+border-radius: 50%;
+}
+
+.right {
+  text-align: end;
+}
